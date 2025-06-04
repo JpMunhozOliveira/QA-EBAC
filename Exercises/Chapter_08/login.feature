@@ -23,7 +23,7 @@ Para visualizar minhas notas
     E a senha "123456"
     Então deve exibir uma mensagem de alerta "Usuário ou senha inválidos"
 
-  Cenário: Autenticar multiplos usuários
+  Esquema do Cenário: Autenticar multiplos usuários
     Quando eu digitar o <usuario>
     E a <senha>
     Então deve exibir a <mensagem> de sucesso
