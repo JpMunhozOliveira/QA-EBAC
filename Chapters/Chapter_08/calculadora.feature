@@ -1,6 +1,5 @@
 #encoding: UTF-8
 # language: pt
-
 Funcionalidade: Calculadora
 Como não sei fazer conta de cabeça
 Quero usar a calculadora do sistema
