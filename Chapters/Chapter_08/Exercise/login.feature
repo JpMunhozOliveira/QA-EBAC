@@ -1,10 +1,31 @@
 #encoding: UTF-8
 # language: pt
-
 Funcionalidade: Login na plataforma
 Como cliente da EBAC-SHOP
 Quero fazer o login (autenticação) na plataforma  
 Para visualizar meus pedidos
 
-## 1 – Ao inserir dados válidos deve ser direcionado para a tela de checkout
-## 2 – Ao inserir um dos campos inválidos deve exibir uma mensagem de alerta “Usuário ou senha inválidos”
+  Contexto:
+    Dado que eu esteja na página de login da plataforma EBAC-SHOP
+
+  Cenário: Login com sucesso
+    Quando eu preencher o campo "Email ou usuário" com "fulano@ebac.com"
+    E eu preencher o campo "Senha" com "teste@123"
+    Então deve ser direcionado para a página de checkout
+
+  Cenário: Login com falha
+    Quando eu preencher o campo "Email ou usuário com "fulanojhu@ebac.com"
+    E eu preencher o campo "Senha" com "teste@ 123"
+    Então deve exibir uma mensagem de alerta "Usuário ou senha inválidos"
+
+  Esquema do Cenário: Login com múltiplos usuários
+    Quando eu preencher o campo "Email ou usuário" com "<user>"
+    E eu preencher o campo "Senha" com "<senha>"
+    Então deve exibir uma mensagem de alerta "<mensagem>"
+
+    Exemplos:
+      | user               | senha       | mensagem                          |
+      | "joao@email.com"   | ""          | "Preencha o campo de senha"       |
+      | ""                 | ""          | "Preencha os campos obrigatórios" |
+      | "usuario@ebac.com" | "##dasd#2"  | "Usuário ou senha incorretos"     |
+      | "usuario@ebac.com" | "teste#123" | "Login realizado com sucesso"     |
