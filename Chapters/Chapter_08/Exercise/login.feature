@@ -25,7 +25,7 @@ Para visualizar meus pedidos
 
     Exemplos:
       | user               | senha       | mensagem                          |
-      | "joao@email.com"   | ""          | "Preencha o campo de senha"       |
+      | "joao@ebac.com"   | ""          | "Preencha o campo de senha"       |
       | ""                 | ""          | "Preencha os campos obrigatórios" |
-      | "usuario@ebac.com" | "##dasd#2"  | "Usuário ou senha incorretos"     |
-      | "usuario@ebac.com" | "teste#123" | "Login realizado com sucesso"     |
+      | "jorge@ebac.com" | "##ygtyf455rdasd#2"  | "Usuário ou senha incorretos"     |
+      | "sofia@ebac.com" | "teste#123" | "Login realizado com sucesso"     |
