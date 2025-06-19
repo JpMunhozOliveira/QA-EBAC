@@ -24,8 +24,8 @@ Para visualizar meus pedidos
     Então deve exibir uma mensagem de alerta "<mensagem>"
 
     Exemplos:
-      | user               | senha       | mensagem                          |
-      | "joao@ebac.com"   | ""          | "Preencha o campo de senha"       |
-      | ""                 | ""          | "Preencha os campos obrigatórios" |
-      | "jorge@ebac.com" | "##ygtyf455rdasd#2"  | "Usuário ou senha incorretos"     |
-      | "sofia@ebac.com" | "teste#123" | "Login realizado com sucesso"     |
+      | user             | senha               | mensagem                          |
+      | "joao@ebac.com"  | ""                  | "Preencha o campo de senha"       |
+      | ""               | ""                  | "Preencha os campos obrigatórios" |
+      | "jorge@ebac.com" | "##ygtyf455rdasd#2" | "Usuário ou senha incorretos"     |
+      | "sofia@ebac.com" | "teste#123"         | "Login realizado com sucesso"     |
