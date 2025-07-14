@@ -9,15 +9,9 @@ Para finalizar minha compra
     Dado que eu esteja na página de cadastro da plataforma EBAC-SHOP
 
   Esquema do Cenário: Cadastro de cliente
-    Dado que eu tenha preenchido o campo "Nome" com <nome>
-    E eu tenha preenchido o campo "Sobrenome" com <sobrenome>
-    E eu tenha preenchido o campo "Pais" com <pais>
-    E eu tenha preenchido o campo "endereço" com <endereco>
-    E eu tenha preenchido o campo "Cidade" com <cidade>
-    E eu tenha preenchido o campo "CEP" com <cep>
-    E eu tenha preenchido o campo "Telefone" com <telefone>
-    E eu tenha preenchido o campo "Endereço  de E-mail" com <email>
-    Então deve ser exibida a mensaagem de alerta "<mensagem>"
+    Quando preencher os campos obrigatórios <nome>, <sobrenome>, <pais>, <endereco>, <cidade>, <cep>, <telefone>, <email>
+    E clicar no botão "Cadastrar"
+    Então deve ser exibida a mensagem de alerta "<mensagem>"
 
     Exemplos:
       | nome  | sobrenome | pais   | endereco   | cidade         | cep       | telefone        | email               | mensagem                                             |

@@ -9,18 +9,18 @@ Para visualizar meus pedidos
     Dado que eu esteja na página de login da plataforma EBAC-SHOP
 
   Cenário: Login com sucesso
-    Quando eu preencher o campo "Email ou usuário" com "fulano@ebac.com"
-    E eu preencher o campo "Senha" com "teste@123"
+    Quando eu digitar o email com "fulano@ebac.com"
+    E a senha com "teste@123"
     Então deve ser direcionado para a página de checkout
 
   Cenário: Login com falha
-    Quando eu preencher o campo "Email ou usuário com "fulanojhu@ebac.com"
-    E eu preencher o campo "Senha" com "teste@ 123"
+    Quando eu digitar o email com "fulanojhu@ebac.com"
+    E a senha com "teste@ 123"
     Então deve exibir uma mensagem de alerta "Usuário ou senha inválidos"
 
   Esquema do Cenário: Login com múltiplos usuários
-    Quando eu preencher o campo "Email ou usuário" com "<user>"
-    E eu preencher o campo "Senha" com "<senha>"
+    Quando eu digitar o email com "<user>"
+    E a senha com "<senha>"
     Então deve exibir uma mensagem de alerta "<mensagem>"
 
     Exemplos:

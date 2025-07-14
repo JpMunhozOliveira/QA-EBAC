@@ -10,21 +10,21 @@ Para depois inserir no carrinho
     Dado que eu esteja na página de um produto da plataforma EBAC-SHOP
 
   Cenário: Configurar produto
-    Dado que eu tenha selecionado uma cor, tamanho e quantidade
-    Quando eu clicar no botão "Comprar"
+    E definir uma cor, tamanho e quantidade
+    Quando clicar no botão "Comprar"
     Então o produto deve ser adicionado ao carrinho com as configurações selecionadas
 
   Cenário: Configurar produto com quantidade máxima
-    Dado que eu tenha selecionado uma cor, tamanho e quantidade de 10 produtos
-    Quando eu clicar no botão "Comprar"
-    Então o produto deve ser adicionado ao carrinho com as configurações selecionadas
+    E definir uma cor, tamanho e quantidade em 10 produtos
+    Quando clicar no botão "Comprar"
+    Então os produtos devem ser adicionados ao carrinho com as configurações selecionadas
 
   Cenário: configurar produto com quantidade acima do máximo
-    Dado que eu tenha selecionado uma cor, tamanho e quantidade de 11 produtos
-    Quando eu clicar no botão "Comprar"
+    E definir uma cor, tamanho e quantidade em 11 produtos
+    Quando clicar no botão "Comprar"
     Então deve ser exibida uma mensagem de erro informando que a quantidade máxima é 10
 
   Cenário: Limpar configurações do produto
-    Dado que eu tenha selecionado uma cor, tamanho
-    Quando eu clicar no botão "Limpar"
-    Então as seleções de cor, tamanho devem voltar ao estado original
+    E definir uma cor, tamanho e quantidade
+    Quando clicar no botão "Limpar"
+    Então as seleções de cor, tamanho e quantidade devem voltar ao estado original
