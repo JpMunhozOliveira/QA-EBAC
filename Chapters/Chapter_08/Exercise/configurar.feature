@@ -22,7 +22,7 @@ Para depois inserir no carrinho
   Cenário: configurar produto com quantidade acima do máximo
     E definir uma cor, tamanho e quantidade em 11 produtos
     Quando clicar no botão "Comprar"
-    Então deve ser exibida uma mensagem de erro informando que a quantidade máxima é 10
+    Então o sistema deve exibir uma mensagem de erro informando que a quantidade máxima é 10
 
   Cenário: Limpar configurações do produto
     E definir uma cor, tamanho e quantidade

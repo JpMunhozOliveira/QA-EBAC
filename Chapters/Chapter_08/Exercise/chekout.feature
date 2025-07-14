@@ -11,7 +11,7 @@ Para finalizar minha compra
   Esquema do Cenário: Cadastro de cliente
     Quando preencher os campos obrigatórios <nome>, <sobrenome>, <pais>, <endereco>, <cidade>, <cep>, <telefone>, <email>
     E clicar no botão "Cadastrar"
-    Então deve ser exibida a mensagem de alerta "<mensagem>"
+    Então o sistema deve exibir a mensagem de alerta "<mensagem>"
 
     Exemplos:
       | nome  | sobrenome | pais   | endereco   | cidade         | cep       | telefone        | email               | mensagem                                             |
