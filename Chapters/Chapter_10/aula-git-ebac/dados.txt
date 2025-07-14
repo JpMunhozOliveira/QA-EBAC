@@ -1,0 +1,12 @@
+Dados do aluno
+
+-Primeiro Nome: João Pedro
+-Profissão: Auxiliar Docente
+-Cidade: Palmital - São Paulo
+-O que faz nas horas vaga: Toca teclado e assisto filmes
+-Feedback sobre o curso Qualidade de Software: O curso está interessante, ainda bem teórico, mas já começando com algumas práticas
+-Feedback sobre a plataforma de estudo da EBAC:
+
+Obrigado!!!
+
+
